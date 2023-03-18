@@ -7,4 +7,4 @@ deposit = {per_cent['ТКБ']/100 * money,
 deposit = list(map(round, deposit))
 print(deposit)
 deposit.sort(reverse = True)
-print(deposit[0])
+print('Максимальная сумма, которую вы можете заработать - ', deposit[0])
